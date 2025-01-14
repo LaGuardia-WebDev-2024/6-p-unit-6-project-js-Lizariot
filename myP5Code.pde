@@ -12,7 +12,46 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
+// Rabbit's body
+  fill(200); // Light gray fill for the rabbit
+  ellipse(200, 250, 150, 200); // Body
+  ellipse(200, 160, 100, 130); // Head
 
+  // Rabbit's ears
+  ellipse(170, 80, 30, 80); // Left ear
+  ellipse(230, 80, 30, 80); // Right ear
+  
+  // Inner ears
+  fill(255, 200, 200); // Pink fill for inner ears
+  ellipse(170, 80, 15, 60); // Left inner ear
+  ellipse(230, 80, 15, 60); // Right inner ear
+
+  // Rabbit's eyes
+  fill(0); // Black fill for eyes
+  ellipse(185, 150, 10, 10); // Left eye
+  ellipse(215, 150, 10, 10); // Right eye
+
+  // Rabbit's nose
+  fill(255, 100, 100); // Pink for nose
+  triangle(200, 170, 195, 180, 205, 180); // Nose
+
+  // Rabbit's mouth
+  line(200, 180, 200, 190); // Center line
+  line(200, 190, 195, 195); // Left side
+  line(200, 190, 205, 195); // Right side
+
+  // Rabbit's arms
+  fill(200);
+  ellipse(140, 250, 40, 80); // Left arm
+  ellipse(260, 250, 40, 80); // Right arm
+
+  // Rabbit's legs
+  ellipse(170, 330, 50, 30); // Left foot
+  ellipse(230, 330, 50, 30); // Right foot
+
+  // Rabbit's tail
+  fill(255); // White for tail
+  ellipse(115, 250, 30, 30); // Tail
   
 
 }
